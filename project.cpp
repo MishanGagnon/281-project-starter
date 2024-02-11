@@ -6,7 +6,7 @@
 //add class here
 
 int main(int argc, char *argv[]) {
-
+  std::ios::sync_with_stdio(false);
   // These are used with getopt_long()
   opterr = false; // Let us handle all error output for command line options
   int choice;
